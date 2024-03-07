@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Protest+Revolution&family=Shadows+Into+Light&display=swap');
+
+* {
+    font-family: 'Caveat';
+    box-sizing: border-box;
+}
+
+img {
+    width: 200px;
+    /* border-top: 16px solid lightgrey;
+    border-right: 16px solid black;
+    border-bottom: 40px solid lightgrey;
+    border-left: 16px solid  black; */
+
+}
+
+/* grid */
+
+figure {
+    display: grid;
+    grid-column: 1fr 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr 1fr;
+
+    
+}
+
+.anatomical_heart {
+    grid-area: anatomical_heart;
+}
+
+.mountains {
+    grid-area: mountains;
+}
+
+.coffeelover {
+    grid-area: coffeelover;
+}
+
+.to-go-thumbler {
+    grid-area: thumbler;
+}
+
+.braid {
+    grid-area: braid;
+}
+
+.geometrical_heart {
+    grid-area: geometrical_heart;
+}
+
+.hand_with_heart {
+    grid-area: hand_with_heart;
+}
+
+.holding_hands {
+    grid-area: holding_hands;
+}
+
+.two_thumbler {
+    grid-area: two_thumbler;
+}
+
+.street {
+    grid-area: street;
+}
+
+.two_arms {
+    grid-area: two_arms;
+}
