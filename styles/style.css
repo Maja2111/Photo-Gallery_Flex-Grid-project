@@ -6,64 +6,85 @@
 }
 
 img {
-    width: 200px;
-    /* border-top: 16px solid lightgrey;
-    border-right: 16px solid black;
-    border-bottom: 40px solid lightgrey;
-    border-left: 16px solid  black; */
-
+    width: 100%;
+    object-fit: contain;
 }
+
+img:hover {
+    rotate: y 190deg;
+    transition: 1s;
+    transition-timing-function: linear;
+}
+
+.wrapper {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px;
+}
+
+.mountains,
+.wineglass,
+.braid {
+    padding: 5px;
+}
+
+
 
 /* grid */
 
 figure {
+    height: 100vh;
     display: grid;
-    grid-column: 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr 1fr;
-
-    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+    grid-template-areas:
+        "anatomical_heart   geometrical_heart   holding_hands"
+        "anatomical_heart   coffeelover         holding_hands"
+        "two_arms           hand_with_heart     wineglass "
+        "mountains          hand_with_heart     wineglass"
+        "mountains          two_thumbler        braid";
 }
+
 
 .anatomical_heart {
     grid-area: anatomical_heart;
-}
-
-.mountains {
-    grid-area: mountains;
-}
-
-.coffeelover {
-    grid-area: coffeelover;
-}
-
-.to-go-thumbler {
-    grid-area: thumbler;
-}
-
-.braid {
-    grid-area: braid;
+    padding: 0 5px;
 }
 
 .geometrical_heart {
     grid-area: geometrical_heart;
 }
 
-.hand_with_heart {
-    grid-area: hand_with_heart;
-}
-
-.holding_hands {
-    grid-area: holding_hands;
+.mountains {
+    grid-area: mountains;
 }
 
 .two_thumbler {
     grid-area: two_thumbler;
 }
 
-.street {
-    grid-area: street;
+.wineglass {
+    grid-area: wineglass;
+}
+
+.hand_with_heart {
+    grid-area: hand_with_heart;
+}
+
+.braid {
+    grid-area: braid;
+}
+
+.holding_hands {
+    grid-area: holding_hands;
 }
 
 .two_arms {
     grid-area: two_arms;
+}
+
+.coffeelover {
+    grid-area: coffeelover;
 }
