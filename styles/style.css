@@ -3,11 +3,20 @@
 * {
     font-family: 'Caveat';
     box-sizing: border-box;
+    background-color: bisque;
 }
+
+/* header */
+h1 {
+    text-align: center;
+}
+
+/* figure */
+
 
 img {
     width: 100%;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 img:hover {
@@ -18,39 +27,55 @@ img:hover {
 
 .wrapper {
     display: flex;
-    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    background-color: gray;
     border: 1px solid rgb(204, 204, 204);
     box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px;
 }
 
-.mountains,
-.wineglass,
-.braid {
-    padding: 5px;
+
+/* footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
+footer p {
+    margin: 0;
+    padding: 0;
+}
 
+a {
+    color: black;
+    padding: 10px;
+}
 
 /* grid */
 
 figure {
-    height: 100vh;
+
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(10, 1fr);
     gap: 10px;
     grid-template-areas:
-        "anatomical_heart   geometrical_heart   holding_hands"
-        "anatomical_heart   coffeelover         holding_hands"
-        "two_arms           hand_with_heart     wineglass "
-        "mountains          hand_with_heart     wineglass"
-        "mountains          two_thumbler        braid";
+        "wineglass      wineglass       geometrical_heart   geometrical_heart"
+        "braid          braid           holding_hands       holding_hands"
+        "two_thumbler   two_thumbler    two_thumbler        two_thumbler"
+        "two_arms       two_arms        MM                  MM"
+        "mountains      mountains       hand_with_heart     hand_with_heart"
+        "street         street          street              street"
+        "avocato        avocato         anatomical_heart    anatomical_heart "
+        "flowers        flowers         onethumbler         onethumbler"
+        "coffeelover    coffeelover     hexagon             hexagon"
+        "leaf           leaf            leaf                leaf"
+    ;
 }
 
 
 .anatomical_heart {
     grid-area: anatomical_heart;
-    padding: 0 5px;
 }
 
 .geometrical_heart {
@@ -87,4 +112,32 @@ figure {
 
 .coffeelover {
     grid-area: coffeelover;
+}
+
+.street_view {
+    grid-area: street;
+}
+
+.To-Go-thumbler {
+    grid-area: onethumbler;
+}
+
+.avo-cat-o {
+    grid-area: avocato;
+}
+
+.leaf {
+    grid-area: leaf;
+}
+
+.flowers {
+    grid-area: flowers;
+}
+
+.minnimouse {
+    grid-area: MM;
+}
+
+.hexagon {
+    grid-area: hexagon;
 }

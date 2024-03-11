@@ -1,17 +1,11 @@
 Projekt Photogallery
 
-- Rotaion probieren einzubauen, wenn das nicht klappt hover mit zoom 
+Was ist die Aufgabe des Projekts?
 
-/* .to-go-thumbler {
-    grid-area: thumbler;
-} */
+Warum ist das Projekt sinnvoll?
 
-/* .street {
-    grid-area: street;
-} */
+Wie können Benutzer am Projekt mitwirken?
 
+Wo erhalten Benutzer Hilfe zu deinem Projekt?
 
-<img src="./img/Einzelner_To-go-Becher.jpg" alt="TO-GO_thumbler" class="to-go-thumbler"> 
-<div class="wrapper street">
-<img src="./img/Straßenperspektive.jpg" alt="street">
-</div> 
+Wer verwaltet das Projekt und trägt dazu bei?
