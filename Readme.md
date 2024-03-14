@@ -28,7 +28,7 @@ Danach ging es an die Rotation und der Überlegung, doch einen Titel einzufügen
 Am Ende wurde es ein Grid von 4 zu 10 mit 17 Bildern.
 
 # Mitwirkende:
-- Frederick Reich 
-- Hadi Nsreeny
-- Danny Wild
-- Chrissi Eisele
+- Frederick Reich https://github.com/FRickReich
+- Hadi Nsreeny https://github.com/hnsreeny
+- Danny Wild   https://github.com/DTHW 
+- Chrissi Eisele https://github.com/zippiskiddy
