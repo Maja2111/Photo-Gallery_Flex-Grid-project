@@ -25,6 +25,7 @@ So wurde für den Anfang ein Layout von 5 zu 3 geschaffen.
 Das Grid war relativ schnell erstellt und benannt, dabei sind Bilder rausgeflogen, um eine gewisse Symmetrie zu schaffen. Aufgrund der verschiedenen Bildgrößen
 waren bestimmte Vorstellungen nicht umsetzbar und wurden daher mit pragmagitischeren Ansätzen gelöst. Der Plan einen weißen Hintergrund zu haben wurde geändert, da es nicht mit der Ästhetik der Bilder gematcht hat. Von daher habe ich mich für einen hellen Grauton entschieden und dem ganzen einen Rahmen von 5px gegeben.
 Danach ging es an die Rotation und der Überlegung, doch einen Titel einzufügen und diese miteinander zuverknüpfen. Die Rotation wird mit einem Hover auf den Images ausgelöst. Der Titel wird mit einer 1.5s Verzögerung angezeigt. 
+Am Ende wurde es ein Grid von 4 zu 10 mit 17 Bildern.
 
 # Mitwirkende:
 - Frederick Reich 
