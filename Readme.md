@@ -17,6 +17,9 @@ Eine Fotogallerie mit eigenen Photos von meinen gezeichneten Bildern. Die Images
 Vorgehensweise:
 Als erstes war die Überlegung mit welchem Grid-Template sich das Projekt am Besten umsetzen lässt. Eine Zeichnung und die vorläufige Benennung der Images haben einen groben Überblick verschafft. Eventuelle Möglichkeiten der Erweiterung sollen über die Zeilenanzahl laufen.
 So wurde für den Anfang ein Layout von 5 zu 3 geschaffen.
-   HTML
-    CSS
+   HTML:
+   Als ersten Step habe ich die HTML Struktur aufgebaut. Die Bilder eingebunden und vorläufig keinen Titel eingebaut, da dies der Plan nicht vorgesehen hat. 
+   Als Hauptdiv dient eine figure die alle Bilder beinhaltet. Für die Verteilung auf dem Grid war dies völlig ausreichend. 
+    CSS:
+
 Mitwirkende:

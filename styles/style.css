@@ -6,51 +6,6 @@
     background-color: bisque;
 }
 
-/* header */
-h1 {
-    text-align: center;
-}
-
-/* figure */
-
-
-img {
-    width: 100%;
-    object-fit: cover;
-}
-
-img:hover {
-    rotate: y 190deg;
-    transition: 1s;
-    transition-timing-function: linear;
-}
-
-.wrapper {
-    display: flex;
-    padding: 5px;
-    background-color: gray;
-    border: 1px solid rgb(204, 204, 204);
-    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px;
-}
-
-
-/* footer */
-
-footer {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-footer p {
-    margin: 0;
-    padding: 0;
-}
-
-a {
-    color: black;
-    padding: 10px;
-}
-
 /* grid */
 
 figure {
@@ -72,7 +27,6 @@ figure {
         "leaf           leaf            leaf                leaf"
     ;
 }
-
 
 .anatomical_heart {
     grid-area: anatomical_heart;
@@ -140,4 +94,84 @@ figure {
 
 .hexagon {
     grid-area: hexagon;
+}
+
+/* header */
+h1 {
+    text-align: center;
+}
+
+/* figure */
+
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.wrapper {
+    display: flex;
+    position: relative;
+    padding: 5px;
+    background-color: gray;
+    border: 1px solid rgb(204, 204, 204);
+    box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 3px;
+}
+
+.overlay {
+    position: absolute;
+    color: rgba(0, 0, 0, 0);
+    background: transparent;
+    top: 18rem;
+    left: 3rem;
+}
+
+.flowers .ol {
+    top: 17rem;
+    left: 2rem;
+}
+
+.ol {
+    position: absolute;
+    color: rgba(0, 0, 0, 0);
+    background: transparent;
+}
+
+
+/* footer */
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+a,
+li {
+    display: flex;
+    color: black;
+    padding: 10px;
+    justify-content: center;
+}
+
+/* hover */
+
+img:hover {
+    rotate: y 190deg;
+    transition: 3s;
+    transition-timing-function: ease-in-out;
+}
+
+img:hover~.overlay {
+    color: rgba(0, 0, 0, 1);
+    transition-delay: 1.5s;
+}
+
+img:hover ~ .ol {
+    color: rgb(253, 253, 253);
+    transition-delay: 1.5s;
 }
