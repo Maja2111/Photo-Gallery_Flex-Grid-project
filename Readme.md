@@ -27,7 +27,7 @@ waren bestimmte Vorstellungen nicht umsetzbar und wurden daher mit pragmagitisch
 Danach ging es an die Rotation und der Überlegung, doch einen Titel einzufügen und diese miteinander zuverknüpfen. Die Rotation wird mit einem Hover auf den Images ausgelöst. Der Titel wird mit einer 1.5s Verzögerung angezeigt. 
 
 # Mitwirkende:
-Frederick Reich 
-Hadi Nsreeny
-Danny Wild
-Chrissi Eisele
+- Frederick Reich 
+- Hadi Nsreeny
+- Danny Wild
+- Chrissi Eisele
