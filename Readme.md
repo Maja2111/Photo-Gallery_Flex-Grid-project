@@ -12,7 +12,7 @@ Photo Gallery (Flex/Grid project)
 - bilder für die photogallerie suchen, dafür hilft bei google folgende suchanfrage: "royalty free images" (zb https://picsum.photos/)
 
 # Idee:
-Eine Fotogallerie mit eigenen Photos von meinen gezeichneten Bildern. Die Images sollten sich um 180°drehen und einen weißen Rahmen haben auf dem sie sich drehen können. Als Referenz dient "Pictures to Frame" von der oben genannten Beispielseite.
+Eine Fotogallerie mit eigenen Photos von meinen gezeichneten Bildern. Die Images sollten sich um 180°drehen und einen weißen Rahmen haben auf dem sie sich drehen können. Als Referenz dient "Pictures to Frame" von https://supsystic.com/gallery-examples/.
 
 # Vorgehensweise:
 Als erstes war die Überlegung mit welchem Grid-Template sich das Projekt am Besten umsetzen lässt. Eine Zeichnung und die vorläufige Benennung der Images haben einen groben Überblick verschafft. Eventuelle Möglichkeiten der Erweiterung sollen über die Zeilenanzahl laufen.
@@ -22,5 +22,12 @@ So wurde für den Anfang ein Layout von 5 zu 3 geschaffen.
    Als ersten Step habe ich die HTML Struktur aufgebaut. Die Bilder eingebunden und vorläufig keinen Titel eingebaut, da dies der Plan nicht vorgesehen hat. 
    Als Hauptdiv dient eine figure die alle Bilder beinhaltet. Für die Verteilung auf dem Grid war dies völlig ausreichend. 
 ## CSS:
+Das Grid war relativ schnell erstellt und benannt, dabei sind Bilder rausgeflogen, um eine gewisse Symmetrie zu schaffen. Aufgrund der verschiedenen Bildgrößen
+waren bestimmte Vorstellungen nicht umsetzbar und wurden daher mit pragmagitischeren Ansätzen gelöst. Der Plan einen weißen Hintergrund zu haben wurde geändert, da es nicht mit der Ästhetik der Bilder gematcht hat. Von daher habe ich mich für einen hellen Grauton entschieden und dem ganzen einen Rahmen von 5px gegeben.
+Danach ging es an die Rotation und der Überlegung, doch einen Titel einzufügen und diese miteinander zuverknüpfen. Die Rotation wird mit einem Hover auf den Images ausgelöst. Der Titel wird mit einer 1.5s Verzögerung angezeigt. 
 
 # Mitwirkende:
+Frederick Reich 
+Hadi Nsreeny
+Danny Wild
+Chrissi Eisele
